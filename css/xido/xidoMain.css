@@ -1,0 +1,13 @@
+/* xidoMain.css */
+
+@import url('./common/wrap.css');
+@import url('./common/headBox.css');
+
+@import url('./main/viewBox.css');
+@import url('./main/bestBox.css');
+@import url('./main/guideContainer.css');
+@import url('./main/graphicBox.css');
+@import url('./main/subAdBox.css');
+@import url('./main/programBox.css');
+@import url('./main/sertiinfoBox.css');
+@import url('./common/footBox.css');

@@ -1,0 +1,563 @@
+/* leica_lensmenu_pc.css */
+
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+	/* design data : 1440px */
+	
+	#headBox {
+    position: relative;
+    width: 100%; height: 90px;
+  }
+  h1 {
+    width: 90px; height: 90px;
+  }
+
+   .btn_area_02 {display: none;}
+   .unbBox {display: none;}
+   .unb {
+     float: right;
+     margin-top: 10px;
+     width: 30%; height: 16px;
+   }
+   .unb ul {
+     width: 100%; height: 100%;
+   }
+   .unb li {
+     float: left;
+     width: 25%; height: 100%;
+     background-color: #111; 
+     color:#fff;
+     text-align: center;
+     font-weight: bold;
+     font-size: 0.8rem;
+   }
+   .unb li:hover {
+     color: #d42027;
+   }
+   .unb li i {
+     color: #fff;
+   }
+   .unb li i:hover{
+    color: #d42027;
+   }
+
+   .pull,
+   .pull i {
+     display: none;
+   }
+
+   .gnbBox {
+     float:left;
+     margin-left: 8%;
+     margin-top: 12px;
+     display: block; 
+     width: 80%; height: 50px;
+    }
+   .menu {
+     width: 100%; height: auto;
+     min-height: 40px;
+     background-color: #111;
+    }
+   .menu > li {
+     float: left;
+     width: 16%; height: 40px;
+     min-height: 40px;
+    }
+    
+
+    
+
+    /* --------------------------------------------------------- */
+
+   .menu dl {
+     width: 100%; height: auto;
+     text-align: center;
+     color: #fff;
+    }
+   .menu dt {
+     width: 100%; height: 40px;
+     padding: 5px; box-sizing: border-box;
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-transform: capitalize;
+     color: #fff;
+    }
+   .menu li:last-child dt{border-right: 0;}
+
+   /* .menu dd {
+     display: none;
+     width: 100%; height: auto;
+
+   } */
+
+
+
+    /* 카메라 렌즈 사진 메뉴----------------------------------------------------------- */
+
+   /* .camera_dd,
+   .lens_dd {
+     display: block;
+     width: 100%; height: auto;
+   } */
+
+   .camera_bg {
+    display: none;
+    position: absolute; left: 0; top: 85%;
+    width: 1024px; width: 100vw; height: 262px;
+    padding: 1%; box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+  }
+
+  /* .camera_full,
+    .lens_full {
+      width: 100%; height: 100%;
+      background-color: #d42027;
+    } */
+  
+  .camera_menu {
+    width: 100%; height: 100%;
+  }
+  .camera_bg ul li {
+    float: left;
+    width: 25%; height: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .camera_menu li span {
+    text-align: center;
+    color:#111;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 16;
+  }
+
+  .camera_con_01 {background-image: url('../../../img/camera0.png');}
+  .camera_con_02 {background-image: url('../../../img/camera1.png');}
+  .camera_con_03 {background-image: url('../../../img/camera2.png');}
+  .camera_con_04 {background-image: url('../../../img/camera3.png');}
+  .camera_con_05 {background-image: url('../../../img/camera4.png');}
+  .camera_con_06 {background-image: url('../../../img/camera5.png');}
+  .camera_con_07 {background-image: url('../../../img/camera6.png');}
+  .camera_con_08 {background-image: url('../../../img/camera7.png');}
+
+  .lens_bg {
+    display: none;
+    position: absolute; left: 0; top: 85%;
+    width: 1024px; width: 100vw; height: 150px;
+    padding: 1%; box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+  }
+  .lens_menu {
+    width: 100%; height: 100%;
+  }
+  .lens_menu li {
+    float: left;
+    width: 20%; height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .lens_menu li span {
+    text-align: center;
+    color:#111;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 18;
+  }
+  .lens_con_01 {background-image: url('../../../img/camera0.png');}
+  .lens_con_02 {background-image: url('../../../img/l5.jpg');
+  background-size: 40%;}
+  .lens_con_03 {background-image: url('../../../img/l1.jpg');
+  background-size: 50%;}
+  .lens_con_04 {background-image: url('../../../img/l9.jpg');
+  background-size: 40%;}
+  .lens_con_05 {background-image: url('../../../img/l7.jpg');
+  background-size: 50%;}
+
+    /* ------------------------ */
+
+    .camera_bg {
+      display: none;
+      position: absolute; left: 0; top: 85%;
+      width: 1024px; width: 100vw; height: 262px;
+      padding: 1%; box-sizing: border-box;
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+    }
+    
+    .camera_menu {
+      width: 100%; height: 100%;
+    }
+    .camera_bg ul li {
+      float: left;
+      width: 25%; height: 50%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+    }
+    .camera_menu li span {
+      text-align: center;
+      color:#111;
+      text-transform: capitalize;
+      font-weight: bold;
+      line-height: 16;
+    }
+  
+    .camera_con_01 {background-image: url('../../../img/camera0.png');}
+    .camera_con_02 {background-image: url('../../../img/camera1.png');}
+    .camera_con_03 {background-image: url('../../../img/camera2.png');}
+    .camera_con_04 {background-image: url('../../../img/camera3.png');}
+    .camera_con_05 {background-image: url('../../../img/camera4.png');}
+    .camera_con_06 {background-image: url('../../../img/camera5.png');}
+    .camera_con_07 {background-image: url('../../../img/camera6.png');}
+    .camera_con_08 {background-image: url('../../../img/camera7.png');}
+  
+    .lens_bg {
+      display: non;
+      position: absolute; left: 0; top: 85%;
+      width: 1024px; width: 100vw; height: 150px;
+      padding: 1%; box-sizing: border-box;
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+    }
+    .lens_menu {
+      width: 100%; height: 100%;
+    }
+    .lens_menu li {
+      float: left;
+      width: 20%; height: 100%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+    }
+    .lens_menu li span {
+      text-align: center;
+      color:#111;
+      text-transform: capitalize;
+      font-weight: bold;
+      line-height: 18;
+    }
+    .lens_con_01 {background-image: url('../../../img/camera0.png');}
+    .lens_con_02 {background-image: url('../../../img/l5.jpg');
+    background-size: 35%;}
+    .lens_con_03 {background-image: url('../../../img/l1.jpg');
+    background-size: 50%;}
+    .lens_con_04 {background-image: url('../../../img/l9.jpg');
+    background-size: 35%;}
+    .lens_con_05 {background-image: url('../../../img/l7.jpg');
+    background-size: 50%;}
+
+    /* ------------------------------------------ */
+
+
+
+
+
+
+
+   .menu .menu_bg {
+     width: 100%; height: auto;
+     display: none;
+    }
+    .menu dd > .menu_full {
+      width: 100%; height: 100%;
+      background-color: #111;
+     }
+
+   .menu dd > .menu_full li {
+     width: 100%; height: 40px;
+     padding: 5px; box-sizing: border-box;
+    }
+   .menu a {
+     display: block; 
+     width: 100%; height: 100%; 
+     background-color: transparent; 
+     font-size: 1rem;
+     line-height: 40px;
+    }
+
+    .menu dd > ul li a {
+      font-size: 0.8rem;
+    }
+
+    .menu dt.action a {
+      color:#d42027; 
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .menu dd  li.action{
+      color:#d42027;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+   /* .menu a:hover,
+   .menu a:focus{font-weight: bold; color: #fff; color: #d42027;}
+   .menu li:hover dd{display: block;} */
+   
+  .btn_area_01 {
+    position: absolute; bottom: 10px; right: 20px;
+    width: 66px; height: 40px;
+    margin-top:-20px;
+    line-height: 50px;
+  }
+  .button_01 i {
+    font-size: 1.5rem;
+    color:#fff;
+  }
+  .searchBox.action {
+    position: absolute; top: 50px; right: 0;
+    display: block;
+    width: 300px; height: 60px;
+    padding: 10px;
+    border:1px solid #fff;
+    box-sizing: border-box;
+    background-color: #111;
+  }
+  .searchBox p {
+    width: 100%; height: 100%;
+    border-radius: 1rem;
+    line-height: 40px;
+    background-color: #fff;
+  }
+  .searchBox i {
+    float:left;
+    margin: 0 10px;
+    line-height: 40px;
+  }
+
+
+ /* viewBox ========================================= */
+ #viewBox {
+  height: auto;
+  padding: 10% 8%; box-sizing: border-box;
+}
+#viewBox h2	{
+  font-size: 3rem;
+}
+.lensBox {
+  width: 100%; height: 100%;
+  background-color: #fff;
+}
+.lensBox ul {
+  width: 100%; height: 100%;
+}
+.lensBox li {
+  float:left;
+  width: 28%; height: 400px;
+  /* height: 14.648438vw; */
+  margin-right:8%;
+  margin-bottom: 30%;
+  
+  
+}
+.lensBox li:nth-child(3n) {
+  margin-right:0;
+}
+.lensBox li a {
+  display: block;
+  width: 100%; height: 100%;
+  font-size: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+.lensBox li a:hover,
+.lensBox li a:focus {
+  background-size: 120%;
+  transition: all 300ms ease;
+}
+.lens_text {
+  float:left;
+  width: 100%; height: 50%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+
+
+.lens_01 {background-image: url('../../../img/l5.jpg');}
+.lens_02 {background-image: url('../../../img/l3.jpg');}
+.lens_03 {background-image: url('../../../img/l4.jpg');}
+.lens_04 {background-image: url('../../../img/l2.jpg');}
+.lens_05 {background-image: url('../../../img/l1.jpg');}
+.lens_06 {background-image: url('../../../img/l6.jpg');}
+.lens_07 {background-image: url('../../../img/l9.jpg');}
+.lens_08 {background-image: url('../../../img/l8.jpg');}
+.lens_09 {background-image: url('../../../img/l12.jpg');}
+.lens_10 {background-image: url('../../../img/l11.jpg');}
+.lens_11 {background-image: url('../../../img/l10.jpg');}
+.lens_12 {background-image: url('../../../img/l7.jpg');}
+
+/* 모달 윈도우  ----------------------------------------------------- */
+
+
+
+.lens_modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; z-index: 1500;
+  width: 100%; height: 100%;
+}
+
+.lens_big {
+  position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
+  width: 1300px; height: 750px;
+  border: 1rem solid #fff; box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,0.8);
+}
+.close_btn {
+  position: absolute; left: -2rem; top: -2rem;
+  width: 4rem; height: 4rem;
+  border: 0.3rem solid #fff;
+  box-sizing: border-box;
+  background-color: #333;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.8);
+  border-radius: 100%;
+}
+.close_btn > button {
+  position: relative;
+  display: block;
+  width: 100%; height: 100%;
+  border-radius: 100%;
+}
+
+/* 닫기버튼 호버, 포커스시 모양 변함 */
+.close_btn > button:before,
+.close_btn > button:after {
+  content:""; display: block;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0; margin: auto;
+  width: 70%; height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: transform 500ms ease;
+}
+.close_btn > button:before {
+  transform:rotate(45deg);
+}
+.close_btn > button:after {
+  transform:rotate(-45deg);
+}
+.close_btn > button:hover:before,
+.close_btn > button:focus:before {
+transform:rotate(360deg) translateY(-8px);
+}
+.close_btn > button:hover:after,
+.close_btn > button:focus:after {
+  transform:rotate(360deg) translateY(8px);
+}
+
+.big_bg {
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+
+/* #menuBox=================================== */
+#menuBox {
+  position: relative;
+  height: 600px; max-height: 600px;
+}
+.bottom_menu {
+  /* float: left; */
+  width: 100%; height: 100%;
+  margin:auto;
+  padding: 10% 10%; box-sizing: border-box;
+}
+.bottom_menu li {
+  float:left;
+  width: 23%; height: 10%;
+}
+.bottom_menu dl {
+  width: 100%; height: 100%;
+}
+.bottom_menu dt {
+  height: 100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color:#d42027;
+}
+.bottom_menu dd {
+  width: 100%; height: 700%;
+}
+.bottom_menu dd ul {
+  width: 100%; height: 100%;
+}
+.bottom_menu dd ul li {
+  float:left;
+  width: 100%; height: 20%;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  text-transform: capitalize;
+  color:#fff;
+}
+
+.menu_area dt.action a 
+  { color:#d42027; font-weight: bold; }
+  .menu_area dd li.action{
+    color:#d42027;
+    font-weight: bold;
+	}
+	
+	.menu_area dd li:hover,
+	.menu_area dd li:focus {
+		color:#d42027;
+		font-weight: bold;
+	}
+
+.bottom_menu a {
+  display: block;
+  width: 100%; height: 100%;
+}
+
+.snsBox {
+  position: absolute; top: 20%; right: 10%;
+  float:right;
+  width: 80px; height: 140px;
+  background-color: #111;
+}
+.snsBox > ul {
+  width: 100%; height: 100%;
+}
+.snsBox ul li {
+  float:left;
+  width: 100%; height: 50%;
+  margin-bottom:10px;
+  background-color: #111;
+}
+.snsBox ul li a:hover,
+.snsBox ul li a:focus {
+  border-radius: 2.5rem;
+  border:2px solid #d42027;
+}
+
+.facebook {
+  display: block;
+  width: 100%; height: 100%;
+  background-image: url('../../../img/leica-icon/facebook.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.instagram {
+  display: block;
+  width: 100%; height: 100%;
+  background-image: url('../../../img/leica-icon/instagram.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+
+/* #footBox=================================== */
+#footBox {
+  padding:20px; box-sizing: border-box;
+}
+#footBox p {
+  text-align: center;
+  font-size: 1rem;
+  color:#fff;
+}
+}

@@ -1,0 +1,618 @@
+/* laicamain_mab_v.css */
+
+@media screen and (max-width: 639px){
+  /* design data : 320px */
+/* #headBox=================================== */
+  #headBox {
+    position: relative;
+  }
+   .unb {display: none;}
+
+   .gnb {
+     float:right;
+     width: 170px; height: 60px;
+    }
+    
+    .btn_area_01,
+    .btn_area_02 {
+      float:left;
+      width: 50px; height: 100%;
+      margin-right: 10px;
+    }
+    .gnb .button_01 {
+      width: 100%; height: 100%;
+    }
+    .button_01 i {
+      font-size: 2rem;
+      color:#fff;
+    }
+
+    .gnb .button_02 {
+      position: relative;
+      width: 100%; height: 100%;
+    } 
+    .button_02 i {
+      font-size: 2rem;
+      color:#fff;
+    }
+    .searchBox.action {
+      position: absolute; left: 0; top: 60px;
+      display: block;
+      width: 320px; width: 100vw; max-width: 639px; height: 100%;
+      padding: 10px;
+      border:1px solid #fff;
+      box-sizing: border-box;
+      background-color: #111;
+    }
+    .searchBox p {
+      width: 100%; height: 100%;
+      border-radius: 1rem;
+      line-height: 40px;
+      background-color: #fff;
+    }
+    .searchBox i {
+      float:left;
+      margin: 0 10px;
+      line-height: 40px;
+    }
+
+    .pull {
+      float:right;
+      display: block;
+      width: 50px; height: 100%;
+    }
+    .pull i {
+      color:#fff;
+      font-size: 2rem;
+    }
+    .gnbBox {
+      width: 100%; height: auto;
+      background-color: #111;
+    }
+    .menu {
+      display:none;
+      position: absolute; top: 0; left: 100%;
+      float:right;
+      width: 70%; height: 1000px;
+      background-color: #111;
+    }
+     .menu.action {
+       display: block;
+    } 
+    .unbBox {
+      width: 100%; height: 80px;
+      padding: 10px; box-sizing: border-box;
+    }
+    .unbBox dt {
+      float:left;
+    }
+    .unbBox a {
+      display: block;
+      width: 100%; height: 100%;
+    }
+
+    .login,
+    .join {
+      float:left;
+      width: 40%; height: auto;
+      padding:5px 10px; box-sizing: border-box;
+      border-radius: 1rem;
+      background-color: #fff;
+      color:#111;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+    
+     .login,
+    .join.action {
+      background-color:#d42027; 
+      font-weight: bold;
+    } 
+     .menu dd  li.action{
+      color:#d42027;
+      font-weight: bold;
+    }
+
+    .login {margin-right: 5%;}
+
+    .unbBox button {
+      float: right;
+      width: 30px; height: 30px;
+    }
+    .unbBox button i {
+      color:#fff;
+      font-size: 2rem;
+    }
+    .menu dt {
+      width: 100%; height: 50px;
+      padding: 10px; box-sizing: border-box;
+      border-bottom: 1px solid #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      color:#fff;
+    }
+    .menu dt a {
+      display: block;
+      width: 100%; height: 100%;
+    }
+
+    .menu dd {
+      /* display:none; */
+      width: 100%; height: auto;
+      font-size: 0.8rem;
+    }
+    .menu dd > ul li {
+      width: 100%; height: auto;
+      padding: 10px; box-sizing: border-box;
+      color:#bfbfbf;
+    }
+    .menu dd > ul li a {
+      display: block;
+      width: 100%; height: 100%;
+    }
+
+    .camera_dd,
+    .lens_dd {
+      width: 100%; height: auto;
+    }
+
+    .camera_bg,
+    .lens_bg {
+      width: 100%; height: auto;
+    }
+    .camera_menu,
+    .lens_menu {
+      width: 100%; height: auto;
+    }
+    .camera_menu li,
+    .lens_menu li {
+      width: 100%; height: auto;
+      padding: 10px; box-sizing: border-box;
+      color:#bfbfbf;
+    }
+    .camera_menu li a,
+    .lens_menu li a {
+      display: block;
+      width: 100%; height: 100%;
+    }
+
+
+    .menu li:hover dd {
+      display: block;
+      color:#d42027;
+    }
+    .menu li dd:hover {
+      color:#d42027;
+    }
+    .pull {display: block; }
+    .pull:hover+.gnbBox .menu,
+    .pull:focus+.gnbBox .menu {
+      /* display: block; */
+      color:#d42027;
+    }
+    .menu dt.action a {
+      color:#d42027; 
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .menu dd  li.action{
+      color:#d42027;
+      font-weight: bold;
+    }
+    
+    
+/* #viewBox_01=================================== */
+  #viewBox_01 {
+    height: 500px;
+  }
+  #viewBox_01 .view_img {
+    width: 100%; height: 70%;
+    background-color: #fff;
+    background-image: url('../../../img/view_img_02.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  .p1 {
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  #viewBox_01 p {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .view_btn {
+    width: 240px; height: 30px;
+    margin:auto;
+  }
+  .view_btn li {
+    width: 120px; height: 30px;
+    padding:2px; box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #111;
+    color:#fff;
+    line-height: 30px;
+  }
+  .view_btn li:nth-child(1) {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+  }
+  .view_btn li:nth-child(2) {
+    float: right;
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .view_btn li:hover,
+  .view_btn li:focus {
+    background-color: rgba(0,0,0,0.7);
+  }
+
+/* #viewBox_02=================================== */
+  #viewBox_02 {
+    height: 500px;
+  }
+  #viewBox_02 .view_img {
+    width: 100%; height: 70%;
+    background-color: #fff;
+    background-image: url('../../../img/view_02_img.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  #viewBox_02 p {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+
+
+/* #bestBox=================================== */
+  #bestBox {
+    height: 500px;
+    padding: 50px 10px 0 10px; box-sizing: border-box;
+  }
+  #bestBox h2 {
+    margin: 10px 0;
+  }
+  .camera_area {
+    width: 100%; height: 35%;
+  }
+  .lens_area {
+    width: 100%; height: 35%;
+  }
+  #bestBox ul {
+    width: 100%; height: 100%;
+  }
+  #bestBox li {
+    float:left;
+    width: 30%; height: 150px;
+    max-height: 150px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    background-color: #fff;
+  }
+
+  .camera {
+    display: block;
+    width: 100%; height: 40%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  .camera_01 {background-image: url('../../../img/best_img_01-1.png');}
+  .camera_02 {background-image: url('../../../img/best_img_02-2.png');}
+  .camera_03 {background-image: url('../../../img/best_img_03-3.png');}
+
+  .camera_text {
+    width: 100%; height: 20%;
+  }
+  
+  .camera_area dt {
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+  }
+  .camera_area dd {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .lens {
+    display: block;
+    width: 100%; height: 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  .lens_01 {background-image: url('../../../img/best_lens_01-1.png');}
+  .lens_02 {background-image: url('../../../img/best_lens_02-2.png');}
+  .lens_03 {background-image: url('../../../img/best_lens_03-3.png');}
+
+  .lens_area dt {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .lens_area dd {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+
+/* #akaBox=================================== */
+  #akaBox {
+    height: 450px;
+  }
+  #akaBox h2 {
+    margin: 10px 0;
+    color:#fff;
+  }
+  #akaBox li {
+    width: 100%; height: 150px;
+    margin-bottom: 20px;
+    background-color: #111;
+  }
+  .aka_img_01 {
+    position: relative;
+    width: 100%; height: 100%;
+    background-image: url('../../../img/aka_img_01-1.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70%;
+  }
+  .aka_img_02 {
+    position: relative;
+    width: 100%; height: 100%;
+    background-image: url('../../../img/aka_img_02-2.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70%;
+  }
+  .aka_01 {
+    position: absolute; top: 90px; left: 0;
+    width: 100%; height: 60px;
+    padding:0 10px; box-sizing: border-box;
+  }
+
+  #akaBox dt {
+    width: 80%; height: 30px;
+    background-color: #111;
+    color:#fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  #akaBox dd {
+    width: 80%; height: 30px;
+    background-color: #111;
+    color:#fff;
+    font-size: 0.4rem;
+    line-height: 30px;
+  }
+
+  #akaBox .aka_btn {
+    float:right;
+    width: 50px; height: 50px;
+    margin-top:-54px;
+    border-radius: 50%;
+    background-color: #d42027;
+    text-align: center;
+  }
+  .aka_btn a {
+    display: block;
+    width: 100%; height: 100%;
+    text-align: center;
+    line-height: 50px;
+  }
+ 
+
+
+/* #storeBox=================================== */
+  #storeBox {
+    position: relative;
+    height: 400px; height: 125vw;
+  }
+  #storeBox h2 {
+    margin-bottom: 10px;
+    color:#fff;
+  }
+  
+
+  .store_btn {
+    position: absolute; left: 5%; top: 70%;
+    z-index: 300;
+    width: 90%; height: 0;
+    margin-top: -95px;
+  }
+  .store_btn button {
+    float: left;
+    width: 30px; height: 30px;
+  }
+  .store_btn button.next {
+    float: right;
+  }
+
+  /* --------------------------------- */
+  .store_indicator {
+    position: absolute; bottom:0; left:50%;
+    z-index: 300;
+    width: 100%; height:auto;
+    text-align: center;
+    padding:0.2rem; box-sizing: border-box;
+    transform:translateX(-50%);
+  }
+  
+  .store_indicator ul {	
+    display:inline-block;
+  }
+  .store_indicator li { 
+    float: left; 
+    width:30px; height:8px;
+    /* margin-right:1rem;  */
+  }
+  .store_indicator li:last-child{ margin-right: 0;}
+  
+  .store_indicator a {
+      display: block;
+      width: 100%; height: 100%; 
+      /* border-radius:1.5rem;  */
+      background-color: #fff;	
+      outline:0;
+    }
+                 
+  
+  .store_indicator a:hover,
+  .store_indicator a:focus,
+  .store_indicator li.active a {
+  	background-color: #d42027;
+}
+  /* ---------------------------------- */
+
+  .store_container {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+    overflow: hidden;
+  }
+  
+  .store_container ul {
+    width: 700%; height: 100%;
+  }
+  .store_container ul li {
+    float: left;
+    width: 12.5%;
+    /* margin-left: 1%; */
+    height: 100%;
+    padding: 1%; box-sizing: border-box;
+  }
+
+
+  .store_container li a {
+    display: block;
+    width: 100%; height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 100% auto;
+  }
+  
+  .store_container ul li.store_img_01 a {background-image: url('../../../img/store5.jpg');}
+  .store_container ul li.store_img_02 a {background-image: url('../../../img/store2.jpg');}
+  .store_container ul li.store_img_03 a {background-image: url('../../../img/store6.jpg');}
+  .store_container ul li.store_img_04 a {background-image: url('../../../img/store4.jpg');}
+  .store_container ul li.store_img_05 a {background-image: url('../../../img/store3.jpg');}
+  .store_container ul li.store_img_06 a {background-image: url('../../../img/store7.jpg');}
+  .store_container ul li.store_img_07 a {background-image: url('../../../img/store1.jpg');}
+  
+  
+    .store_container li span {
+      width: 300px; height: 60px;
+      text-align: center;
+      line-height: 60; height: 171.875vw;
+      color:#fff;
+    }
+  
+
+/* #menuBox=================================== */
+  #menuBox {
+    height: auto;
+    padding: 25px 10px; box-sizing: border-box;
+  }
+  .menu_area {
+    width: 100%; height: 70%;
+    background-color: #111;
+  }
+  .bottom_menu dl {
+    width: 100%; height: auto;
+  }
+  #menuBox dt {
+    width: 100%; height: 40px;
+    border-bottom: 1px solid #fff;
+    padding:5px; box-sizing: border-box;
+    background-color: #111;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:#fff;
+  }
+  #menuBox dt a {
+    display: block;
+    width: 100%; height: 100%;
+  }
+  
+  .bottom_menu dd {
+    width: 100%; height: auto;
+    font-weight: lighter;
+    color:#fff;
+  }
+  .bottom_menu dd > ul {
+    width: 100%; height: auto;
+  }
+  .bottom_menu dd > ul > li {
+    width: 100%; height: auto;
+    margin-bottom: 10px;
+  }
+  .bottom_menu a {
+    width:100%; height:100%;
+  }
+
+
+  .menu_area dt.action a 
+  { color:#d42027; font-weight: bold; }
+  .menu_area dd  li.action{
+    color:#d42027;
+    font-weight: bold;
+  }
+
+  .snsBox {
+    float:right;
+    width: 140px; height: 80px;
+    background-color: #111;
+  }
+  .snsBox > ul {
+    width: 100%; height: 100%;
+  }
+  .snsBox ul li {
+    float:left;
+    width: 50%; height: 100%;
+    margin-bottom:10px;
+    background-color: #111;
+  }
+  .snsBox ul li a:hover,
+  .snsBox ul li a:focus {
+    border-radius: 2.5rem;
+    border:2px solid #d42027;
+  }
+
+  .facebook {
+    display: block;
+    width: 100%; height: 100%;
+    background-image: url('../../../img/leica-icon/facebook.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .instagram {
+    display: block;
+    width: 100%; height: 100%;
+    background-image: url('../../../img/leica-icon/instagram.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+/* #footBox=================================== */
+  #footBox {
+    padding:10px; box-sizing: border-box;
+  }
+  #footBox p {
+    text-align: center;
+    font-size: 0.7rem;
+    color:#fff;
+  }
+
+
+/* @media end */
+}

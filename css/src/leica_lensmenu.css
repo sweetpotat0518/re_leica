@@ -1,0 +1,8 @@
+/* leica_lensmenu.css */
+
+@import url(../leica/leica_lensmenu/leica_lensmenu_base.css);
+@import url(../leica/leica_lensmenu/leica_lensmenu_mob_v.css);
+@import url(../leica/leica_lensmenu/leica_lensmenu_mob_h.css);
+@import url(../leica/leica_lensmenu/leica_lensmenu_tab.css);
+@import url(../leica/leica_lensmenu/leica_lensmenu_pc.css);
+@import url(../leica/leica_lensmenu/leica_lensmenu_pcfull.css);

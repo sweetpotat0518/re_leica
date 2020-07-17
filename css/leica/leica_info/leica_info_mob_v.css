@@ -1,0 +1,454 @@
+/* leica_info_mob_v.css */
+
+@media screen and (max-width: 639px){
+  /* design data : 320px */
+/* #headBox=================================== */
+#headBox {
+	position: relative;
+}
+ .unb {display: none;}
+
+ .gnb {
+	 float:right;
+	 width: 170px; height: 60px;
+	}
+	
+	.btn_area_01,
+	.btn_area_02 {
+		float:left;
+		width: 50px; height: 100%;
+		margin-right: 10px;
+	}
+	.gnb .button_01 {
+		width: 100%; height: 100%;
+	}
+	.button_01 i {
+		font-size: 2rem;
+		color:#fff;
+	}
+
+	.gnb .button_02 {
+		position: relative;
+		width: 100%; height: 100%;
+	} 
+	.button_02 i {
+		font-size: 2rem;
+		color:#fff;
+	}
+	.searchBox.action {
+		position: absolute; left: 0;
+		display: block;
+		width: 320px; width: 100vw; max-width: 639px; height: 100%;
+		padding: 10px;
+		border:1px solid #fff;
+		box-sizing: border-box;
+		background-color: #111;
+	}
+	.searchBox p {
+		width: 100%; height: 100%;
+		border-radius: 1rem;
+		line-height: 40px;
+		background-color: #fff;
+	}
+	.searchBox i {
+		float:left;
+		margin: 0 10px;
+		line-height: 40px;
+	}
+
+	.pull {
+		float:right;
+		display: block;
+		width: 50px; height: 100%;
+	}
+	.pull i {
+		color:#fff;
+		font-size: 2rem;
+	}
+	.gnbBox {
+		width: 100%; height: auto;
+		background-color: #111;
+	}
+	.menu {
+		display:none;
+		position: absolute; top: 0; left: 100%;
+		float:right;
+		width: 70%; height: 1000px;
+		background-color: #111;
+	}
+	 .menu.action {
+		 display: block;
+	} 
+	.unbBox {
+		width: 100%; height: 80px;
+		padding: 10px; box-sizing: border-box;
+	}
+	.unbBox dt {
+		float:left;
+	}
+	.unbBox a {
+		display: block;
+		width: 100%; height: 100%;
+	}
+
+	.login,
+	.join {
+		float:left;
+		width: 40%; height: auto;
+		padding:5px 10px; box-sizing: border-box;
+		border-radius: 1rem;
+		background-color: #fff;
+		color:#111;
+		text-align: center;
+		font-size: 0.9rem;
+		font-weight: bold;
+	}
+	
+	 .login,
+	.join.action {
+		background-color:#d42027; 
+		font-weight: bold;
+	} 
+	 .menu dd  li.action{
+		color:#d42027;
+		font-weight: bold;
+	}
+
+	.login {margin-right: 5%;}
+
+	.unbBox button {
+		float: right;
+		width: 30px; height: 30px;
+	}
+	.unbBox button i {
+		color:#fff;
+		font-size: 2rem;
+	}
+	.menu dt {
+		width: 100%; height: 50px;
+		padding: 10px; box-sizing: border-box;
+		border-bottom: 1px solid #fff;
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-transform: capitalize;
+		color:#fff;
+	}
+	.menu dt a {
+		display: block;
+		width: 100%; height: 100%;
+	}
+
+	.menu dd {
+		/* display:none; */
+		width: 100%; height: auto;
+		font-size: 0.8rem;
+	}
+	.menu dd > ul li {
+		width: 100%; height: auto;
+		padding: 10px; box-sizing: border-box;
+		color:#bfbfbf;
+	}
+	.menu dd > ul li a {
+		display: block;
+		width: 100%; height: 100%;
+	}
+
+	.camera_dd,
+	.lens_dd {
+		width: 100%; height: auto;
+	}
+
+	.camera_bg,
+	.lens_bg {
+		width: 100%; height: auto;
+	}
+	.camera_menu,
+	.lens_menu {
+		width: 100%; height: auto;
+	}
+	.camera_menu li,
+	.lens_menu li {
+		width: 100%; height: auto;
+		padding: 10px; box-sizing: border-box;
+		color:#bfbfbf;
+	}
+	.camera_menu li a,
+	.lens_menu li a {
+		display: block;
+		width: 100%; height: 100%;
+	}
+
+
+	.menu li:hover dd {
+		display: block;
+		color:#d42027;
+	}
+	.menu li dd:hover {
+		color:#d42027;
+	}
+	.pull {display: block; }
+	.pull:hover+.gnbBox .menu,
+	.pull:focus+.gnbBox .menu {
+		/* display: block; */
+		color:#d42027;
+	}
+	.menu dt.action a {
+		color:#d42027; 
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+	.menu dd  li.action{
+		color:#d42027;
+		font-weight: bold;
+	}
+	
+
+
+	/* viewBox======================================== */
+	#viewBox {
+		height: 700px;
+	}
+	.view_img {
+		position: relative;
+		width: 100%; height: 100%;
+		background-color: #d42027;
+		background-image: url('../../../img/phil-baum-GRcQmqJNxWo-unsplash.jpg');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover;
+	}
+	.view_text {
+		position: absolute; top: 20%; left: 0;
+		width: 100%; height: 20%;
+	}
+	.view_img p {
+		margin-bottom: 100px;
+		text-align: center;
+		font-size: 2rem;
+		font-weight: bold;
+		color:#fff;
+		text-shadow: 2px 2px #111;
+	}
+
+
+	/* #textBox======================================== */
+	#textBox {
+		height: auto;
+		padding:5%; box-sizing: border-box;
+	}
+	#textBox h2	{
+		line-height: 80px;
+	}
+	.text_area {
+		width: 70%; height: 100%;
+		margin: auto;
+		word-break: break-all;
+	}
+	
+
+
+	/* infoBox========================================= */
+	#infoBox {
+		height: 2000px;
+		padding: 10%; box-sizing: border-box;
+	}
+	.info_full {
+		width: 100%; height: 30%;
+		margin-bottom: 10%;
+	}
+	.info_full2 {
+
+		width: 100%; height: 30%; 
+		margin-bottom: 10%;
+	}
+	.info_area {
+		position: relative;
+		width: 80%; height: 40%; 
+		margin-bottom: 10%;
+		background-color: #d42027;
+	}
+
+	.info_area > div {
+		position: absolute; top: 5%; left: 5%;
+		width: 100%; height: 100%;
+		background-color: #fff;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover;
+	}
+	
+	.info_img_01 {
+		background-image: url('../../../img/info1.png');
+	}
+	.info_img_02 {
+		background-image: url('../../../img/info2.png');
+	}
+	.info_img_03 {
+		background-image: url('../../../img/info3.png');
+	}
+
+	.info_text {
+		width: 100%; height: auto;
+		margin-top: 10%;
+		word-break: keep-all;
+	}
+
+	.info_text h3 {
+    width: auto; height: auto;
+    margin-bottom: 50px;
+  }
+  .info2_text h3 {
+    width: auto; height: auto;
+    margin-bottom: 50px;
+  }
+	
+	.info_area > div:hover,
+	.info_area > div:focus {
+		background-size: 200%;
+		transition: all 400ms ease;
+	}
+	.info_text:hover h3,
+	.info_text:focus h3 {
+		font-size: 2rem;
+		color:#d42027;
+		transition: all 400ms ease;
+	}
+	.info2_text:hover h3,
+	.info2_text:focus h3 {
+		font-size: 2rem;
+		color:#d42027;
+		transition: all 400ms ease;
+	}
+
+
+	
+/* ------------------------------------------------ */
+
+#listBox {
+	width: 100%; height: 250px;
+	padding: 5%; box-sizing: border-box;
+	background-color: #fff;
+}
+
+.list_area {
+	width: 100%; height: 100%;
+}
+.list_area ul {
+	width: 100%; height: 100%;
+}
+.list_area li {
+	position: relative;
+	width: 100%; height: 33.333333%;
+	border-bottom: 1px solid #111;
+	font-weight: bold;
+	line-height:4;
+}
+.list_area li:hover,
+.list_area li:focus {
+	font-size: 1.3rem;
+	transition: all 300ms ease;
+	color:#d42027;
+}
+
+
+.list_area li:last-child {
+	border: 0;
+}
+.list_area li a {
+	display: block;
+	width: 100%; height: 100%;
+}
+.list_area li i {
+	position: absolute; top: 20%; right: 0;
+	float:right;
+	font-size: 2.5rem;
+}
+
+
+
+
+
+	/* #menuBox====================================== */
+#menuBox {
+	height: auto;
+	padding: 25px 10px; box-sizing: border-box;
+}
+.menu_area {
+	width: 100%; height: 70%;
+	background-color: #111;
+}
+.bottom_menu dl {
+	width: 100%; height: auto;
+}
+#menuBox dt {
+	width: 100%; height: 40px;
+	border-bottom: 1px solid #fff;
+	padding:5px; box-sizing: border-box;
+	background-color: #111;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color:#fff;
+}
+.bottom_menu dd {
+	display: none;
+	width: 100%; height: auto;
+}
+.bottom_menu dd > ul {
+	width: 100%; height: auto;
+}
+.bottom_menu dd > ul > li {
+	display:block;
+	width: 100%; height: auto;
+}
+.bottom_menu a {
+	display: block;
+	width:100%; height:100%;
+}
+
+/* .bottom_menu dt:hover a,  */
+.bottom_menu dt.action a{color:#d42027;}
+
+.bottom_menu li.action dd {display: block; color:#fff;}
+.bottom_menu li dd a.action {display: block; color:#d42027;}
+
+.snsBox {
+	float:right;
+	width: 120px; height: 80px;
+	background-color: #111;
+}
+.snsBox > ul {
+	width: 100%; height: 100%;
+	background-color: #15a;
+}
+.snsBox ul li {
+	float:left;
+	width: 50%; height: 100%;
+	margin-bottom:10px;
+	background-color: #111;
+}
+.facebook {
+	display: block;
+	width: 100%; height: 100%;
+	background-image: url('../../../img/leica-icon/facebook.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.instagram {
+	display: block;
+	width: 100%; height: 100%;
+	background-image: url('../../../img/leica-icon/instagram.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+/* #footBox=================================== */
+#footBox {
+	padding:10px; box-sizing: border-box;
+}
+#footBox p {
+	text-align: center;
+	font-size: 0.7rem;
+	color:#fff;
+}
+}

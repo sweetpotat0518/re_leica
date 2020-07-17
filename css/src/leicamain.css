@@ -1,0 +1,8 @@
+/* leicamain_base.css */
+
+@import url(../leica/leicamain/leicamain_base.css);
+@import url(../leica/leicamain/leicamain_mob_v.css);
+@import url(../leica/leicamain/leicamain_mob_h.css);
+@import url(../leica/leicamain/leicamain_tab.css);
+@import url(../leica/leicamain/leicamain_pc.css);
+@import url(../leica/leicamain/leicamain_pcfull.css);
